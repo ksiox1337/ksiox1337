@@ -4,7 +4,7 @@ Informatik student at the Technical University of Munich (TUM). I like building 
 
 ## Projects
 
-### [MetaVerb](https://github.com/ksiox1337/metaverb) — research version · Bundeswettbewerb KI 2025
+### [MetaVerb](https://github.com/ksiox1337/metaverb-project) — research version · Bundeswettbewerb KI 2025
 Adaptive vocabulary learning platform with ML-based word selection and a custom offline learning device.
 
 ### [MetaVerb](https://metaverb.org) — web app & [@logosmachinebot](https://t.me/logosmachinebot) · in daily use
