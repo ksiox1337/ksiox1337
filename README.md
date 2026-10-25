@@ -22,11 +22,11 @@ The same idea, rebuilt as a product: no ML, focused on reliability and everyday 
 
 ## Hackathons
  
-- **[WATT THE HACK](https://github.com/ksiox1337/grid-storm-sensors)** (Munich, Oct 2026) · Nomadic challenge "Keeping the Power Flowing" · team PowerDrone · 🏆 top 3
-  After a storm, a fleet of five line-sitting drone sensor packages searches a real 198 km section of the Bavarian grid for damage. AI classifies incoming reports, every kilometre gets a fault probability, flights update it with Bayesian evidence, and the operator gets a clear call: keep searching, send an inspection crew, or send a repair crew (only when two independent sensors agree).
+- **[WATT THE HACK](https://github.com/ksiox1337/grid-storm-sensors)** (Munich, Oct 2026) · Nomadic challenge "Keeping the Power Flowing" · team PowerDrone · 🏆 top 3<br>
+  After a storm, a fleet of five line-sitting drone sensor packages searches a real 198 km section of the Bavarian grid for damage. AI classifies incoming reports, every kilometre gets a fault probability, flights update it with Bayesian evidence, and the operator gets a clear call: keep searching, send an inspection crew, or send a repair crew (only when two independent sensors agree).<br>
   Python · Bayesian search · JavaScript map visualisation · simulated sensor data · team of 4; I co-owned the code and system architecture (AI-assisted with Claude Code)
-- **European Hackathon League — Grand Finale** (TUM.ai, Munich, Oct 2026) · Atira challenge · Grand Finalist with team Saltovka_057
-  A swarm of browser agents that answers a public tender on its own in 20 minutes: it logs into four websites (tender portal, ERP, webmail, specs), reads documents and bidder Q&A, picks every value by the latest dated record and keeps the evidence for it, then computes the bid and submits it.
+- **European Hackathon League — Grand Finale** (TUM.ai, Munich, Oct 2026) · Atira challenge · Grand Finalist with team Saltovka_057<br>
+  A swarm of browser agents that answers a public tender on its own in 20 minutes: it logs into four websites (tender portal, ERP, webmail, specs), reads documents and bidder Q&A, picks every value by the latest dated record and keeps the evidence for it, then computes the bid and submits it.<br>
   Python · Playwright · LLM agents (Qwen) · I owned the orchestrator and backend
 
 ## Community
