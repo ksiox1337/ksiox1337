@@ -10,7 +10,8 @@ Adaptive vocabulary learning platform with ML-based word selection and a custom 
  
 - ML models estimating knowledge, forgetting and engagement, with explicit rules on top for the final choice
 - Gameboy-style offline device on a PCB designed from scratch (ESP32)
-### [MetaVerb](https://metaverb.org) — web app & [@logosmachinebot](https://t.me/logosmachinebot) · in daily use
+
+### [MetaVerb app](https://metaverb.org) — web app & [@logosmachinebot](https://t.me/logosmachinebot) · in daily use
  
 The same idea, rebuilt as a product: no ML, focused on reliability and everyday use. Look a word up once, and it comes back right before you forget it, in Telegram and in the browser, with one shared vocabulary.
  
@@ -18,6 +19,7 @@ The same idea, rebuilt as a product: no ML, focused on reliability and everyday 
 - Spaced repetition with four question modes, a choice of direction, and AI feedback on sentences you write
 - Telegram bot and installable web app (PWA) on one backend; interface and learning in 6 languages
 - TypeScript · Node.js / Fastify · MongoDB · Next.js 15 · Google Cloud · Docker · e2e and load tests
+
 ## Hackathons
  
 - **[WATT THE HACK](https://github.com/ksiox1337/grid-storm-sensors)** (Munich, Oct 2026) · Nomadic challenge "Keeping the Power Flowing" · team PowerDrone · 🏆 top 3
@@ -26,9 +28,11 @@ The same idea, rebuilt as a product: no ML, focused on reliability and everyday 
 - **European Hackathon League — Grand Finale** (TUM.ai, Munich, Oct 2026) · Atira challenge · Grand Finalist with team Saltovka_057
   A swarm of browser agents that answers a public tender on its own in 20 minutes: it logs into four websites (tender portal, ERP, webmail, specs), reads documents and bidder Q&A, picks every value by the latest dated record and keeps the evidence for it, then computes the bid and submits it.
   Python · Playwright · LLM agents (Qwen) · I owned the orchestrator and backend
+
 ## Community
  
 - **[def milch(tech)](https://defmilchtech.com)** — founder · TUM student club for tech × Ukraine: humanitarian and defence tech (early warning, help for victims, rehabilitation), open talks on security. No lethal weapons.
+
 ## Tools
  
 **ML & hardware:** Python · PyTorch · LightGBM · ESP-IDF (ESP32) · EasyEDA · Fusion 360 · Blender
