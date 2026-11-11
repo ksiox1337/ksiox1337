@@ -20,6 +20,15 @@ The same idea, rebuilt as a product: no ML, focused on reliability and everyday 
 - Telegram bot and installable web app (PWA) on one backend; interface and learning in 6 languages
 - TypeScript · Node.js / Fastify · MongoDB · Next.js 15 · Google Cloud · Docker · e2e and load tests
 
+### [WatchHunter](https://github.com/ksiox1337/watchhunter) — personal deal hunter for vintage digital watches · runs 24/7 on a Raspberry Pi
+
+Watches eBay and Kleinanzeigen, reads the photos with a vision model and sends the few listings worth a look to Telegram. Every 👍 / 👎 under a card trains a taste model, so it learns what I actually collect.
+
+- Pipeline: cheap rules → batched title triage (Jev) → GPT-5-mini vision verdict (model, era, rarity, value) → gate → Telegram card
+- Taste model from my own reactions (TF-IDF + verdict features, logistic regression vs random forest), retrains every 5 h; AUC 0.94 on 1,277 ratings
+- Own sold-price history from followed auctions, perceptual image hashes for reused photos, a rarity benchmark
+- About $0.05–0.20 a day in model calls · Python · asyncio · SQLite · OpenAI API · scikit-learn · systemd
+
 ## Hackathons
  
 - **[WATT THE HACK](https://github.com/ksiox1337/grid-storm-sensors)** (Munich, Oct 2026) · Nomadic challenge "Keeping the Power Flowing" · team PowerDrone · 🏆 top 3<br>
